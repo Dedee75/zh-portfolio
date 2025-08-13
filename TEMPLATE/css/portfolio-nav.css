@@ -1,0 +1,46 @@
+/* Portfolio Navigation Styles */
+.portfolio-nav {
+    margin: 30px 0;
+    padding: 0 20px;
+}
+
+.portfolio-nav-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff; /* Changed to white */
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.portfolio-nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.portfolio-nav-list li {
+    margin-bottom: 8px;
+}
+
+.portfolio-nav-list a {
+    color: #fff; /* Changed to white */
+    text-decoration: none;
+    font-size: 14px; /* Slightly larger font */
+    transition: all 0.3s ease;
+    display: block;
+    padding: 8px 0; /* Increased padding */
+    opacity: 0.8; /* Slightly transparent by default */
+}
+
+.portfolio-nav-list a:hover,
+.portfolio-nav-list a.active {
+    color: #f26b38;
+    transform: translateX(5px);
+    opacity: 1; /* Full opacity on hover/active */
+}
+
+.portfolio-nav-list a.active {
+    font-weight: 700;
+    color: #f26b38; /* Active state color */
+}
